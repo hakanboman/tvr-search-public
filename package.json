@@ -1,0 +1,26 @@
+{
+  "name": "tvr-search-public",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "coffee lib/server.coffee",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "amqp-as-promised": "~0.2",
+    "body-parser": "^1.9.0",
+    "bog": "~1.0",
+    "elasticsearch": "^2.4.3",
+    "eslight": "0.0.9",
+    "express": "^4.9.7",
+    "q": "~1.0",
+    "leget": "git+ssh://git@github.com:ttab/leget.git#v1.1.15"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "chai": "~1.9.0",
+    "chai-as-promised": "~4.1.0",
+    "mocha": "~1.17.1",
+    "sinon-chai": "~2.5.0",
+    "sinon": "~1.8.1"
+  }
+}
